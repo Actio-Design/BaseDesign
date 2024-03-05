@@ -46,6 +46,9 @@ const sr = ScrollReveal({
 // hero
 sr.reveal('.hero__text', { origin: 'top' });
 sr.reveal('.hero__img');
+sr.reveal('.hero__text2', { origin: 'left' });
+sr.reveal('.hero__img2');
+
 
 // stats
 sr.reveal('.stats__item', {
