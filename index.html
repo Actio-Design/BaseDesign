@@ -38,17 +38,17 @@
         <!-- location -->
         <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
           <i class="ri-map-pin-2-fill text-2xl text-accent"></i>
-          <div class="text-secondary">123 Arling, Miola, NY</div>
+          <div class="text-accent">123 Arling, Miola, NY</div>
         </div>
         <!-- phone -->
         <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
           <i class="ri-phone-fill text-2xl text-accent"></i>
-          <div class="text-secondary">(+487) 384 9452</div>
+          <div class="text-accent">(+487) 384 9452</div>
         </div>
         <!-- phone -->
         <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
           <i class="ri-phone-fill text-2xl text-accent"></i>
-          <div class="text-secondary">(+487) 384 9452</div>
+          <div class="text-accent">(+487) 384 9452</div>
         </div>
         <!-- btn -->
         <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">
@@ -102,7 +102,7 @@
         </nav>
         <!-- desktop nav -->
         <nav
-          class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
+          class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 hidden lg:flex lg:items-center lg:justify-between lg:px-[50px] z-20">
           <!-- list -->
           <ul class="flex gap-x-4">
             <li>
@@ -140,10 +140,10 @@
   </header>
 
   <!-- hero -->
-  <swiper-container class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden z-20" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-    centered-slides="true" autoplay-delay="10000" autoplay-disable-on-interaction="false">
-    <swiper-slide>
-      <div class="container mx-auto h-full bg-cover">
+  <swiper-container class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden " pagination="true" pagination-clickable="true"   space-between="30"
+    centered-slides="true" autoplay-delay="10000" autoplay-disable-on-interaction="false" fade="true">
+    <swiper-slide class="z-10">
+      <div class="container mx-auto h-full">
         <!-- text & img -->
 
         <div class="flex flex-col xl:flex-row items-center justify-between h-full">
@@ -172,7 +172,7 @@
             </button>
           </div>
           <!-- image -->
-          <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+          <div class="hero__img hidden md:flex bg-cover self-end">
             <img src="./assets/img/hero/img.png" alt="" />
           </div>
         </div>
@@ -209,7 +209,7 @@
             </button>
           </div>
           <!-- image -->
-          <div class="hero__img2 hidden xl:flex max-w-[814px] self-end">
+          <div class="hero__img2 hidden md:flex bg-cover self-end">
             <img src="./assets/img/hero/2.jpg" alt="" />
           </div>
         </div>
