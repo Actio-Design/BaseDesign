@@ -18,19 +18,19 @@ h6 {
 }
 
 .h1 {
-  @apply text-[36px] xl:text-[64px] font-semibold;
+  @apply text-[32px] xl:text-[50px] font-semibold;
 }
 
 .h2 {
-  @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px];
+  @apply text-[28px] xl:text-[45px] font-semibold capitalize tracking-[0.44px];
 }
 
 .h3 {
-  @apply text-[20px] xl:text-[26px] font-semibold;
+  @apply text-[18px] xl:text-[22px] font-semibold;
 }
 
 .h4 {
-  @apply text-[20px] xl:text-[26px] font-semibold capitalize;
+  @apply text-[14px] xl:text-[19px] font-semibold capitalize;
 }
 
 .btn {
@@ -82,18 +82,38 @@ h6 {
   @apply h-full;
 }
 
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .autoplay-progress {
   position: absolute;
   right: 16px;
   bottom: 16px;
-  z-index: 10;
+  z-index: 999;
   width: 48px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--swiper-theme-color);
+
 }
 
 .autoplay-progress svg {
