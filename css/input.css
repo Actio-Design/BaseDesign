@@ -18,19 +18,19 @@ h6 {
 }
 
 .h1 {
-  @apply text-[32px] xl:text-[50px] font-semibold;
+  @apply text-[32px] lg:text-[40px] font-semibold;
 }
 
 .h2 {
-  @apply text-[28px] xl:text-[45px] font-semibold capitalize tracking-[0.44px];
+  @apply text-[28px] lg:text-[35px] font-semibold capitalize tracking-[0.44px];
 }
 
 .h3 {
-  @apply text-[18px] xl:text-[22px] font-semibold;
+  @apply text-[18px] lg:text-[20px] font-semibold;
 }
 
 .h4 {
-  @apply text-[14px] xl:text-[19px] font-semibold capitalize;
+  @apply text-[14px] lg:text-[14px] font-semibold capitalize;
 }
 
 .btn {

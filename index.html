@@ -28,32 +28,32 @@
 <body>
   <!-- header -->
   <header class="w-full py-8 lg:pt-6 lg:pb-14">
-    <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+    <div class="container mx-auto lg:relative flex flex-col xl:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
       <!-- logo -->
       <div class="flex justify-center lg:justify-normal">
         <a href="#">
-          <img class="w-52 bg-cover" src="./assets/img/header/logo2.svg" alt="Logo Imaki" />
+          <img class="w-40 bg-cover" src="./assets/img/header/logo2.svg" alt="Logo Imaki" />
         </a>
       </div>
 
       <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
         <!-- location -->
-        <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
-          <i class="ri-map-pin-2-fill text-2xl text-accent"></i>
-          <div class="text-accent">123 Arling, Miola, NY</div>
+        <div class="flex justify-center items-center gap-x-2 lg:justify-normal" text-sm
+          <i class="ri-map-pin-2-fill text-md text-accent"></i>
+          <div class="text-accent text-sm">123 Arling, Miola, NY</div>
         </div>
         <!-- phone -->
         <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
           <i class="ri-phone-fill text-2xl text-accent"></i>
-          <div class="text-accent">(+487) 384 9452</div>
+          <div class="text-accent text-sm">(+487) 384 9452</div>
         </div>
         <!-- phone -->
         <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
           <i class="ri-phone-fill text-2xl text-accent"></i>
-          <div class="text-accent">(+487) 384 9452</div>
+          <div class="text-accent text-sm">(+487) 384 9452</div>
         </div>
         <!-- btn -->
-        <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">
+        <button class="btn btn-sm btn-outline w-[300px] lg:w-auto mx-auto lg:mx-0">
           Reserva Hora
         </button>
         <!-- mobile nav -->
@@ -69,7 +69,7 @@
           <div class="px-12 flex flex-col gap-y-12 h-full">
             <!-- logo -->
             <a href="#">
-              <img src="./assets/img/header/logo.svg" alt="" />
+              <img class="" src="./assets/img/header/logo.svg" alt="" />
             </a>
             <!-- list -->
             <ul class="flex flex-col gap-y-5">
@@ -198,7 +198,7 @@
               </div>
             </div>
             <!-- title -->
-            <h1 class="h1 mb-6">Estética médica a su disposición</h1>
+            <h1 class="h1 mb-6 text-pretty">Estética médica a su disposición</h1>
             <!-- desc -->
             <p class="mb-[42px] md:max-w-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
@@ -257,13 +257,13 @@
         class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
         <!-- grid item icon -->
         <div class="mb-[15px]">
-          <img src="./assets/icons/services/icon-1.svg" alt="" />
+          <i class="fa-solid fa-user-doctor text-accent-secondary text-[40px]"></i>
         </div>
         <!-- grid item title -->
         <h3 class="h3 mb-[10px]">Medicina general e infantil</h3>
         <!-- grid item description -->
-        <p class="font-light leading-normal max-w-[300px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+        <p class="font-light leading-normal max-w-[150px] text-[0.8rem] text-pretty">
+          Un equipo de médicos reconocidos en Quilicura por mas de 20 años han escogido a IMAKI para entregar toda su experiencia y calidad de atención. Atención de lunes a sábado.
         </p>
       </div>
       <!-- grid item -->
@@ -271,13 +271,13 @@
         class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
         <!-- grid item icon -->
         <div class="mb-[15px]">
-          <img src="./assets/icons/services/icon-2.svg" alt="" />
+          <i class="fa-solid fa-hand-dots text-accent-secondary text-[40px]"></i>
         </div>
         <!-- grid item title -->
-        <h3 class="h3 mb-[10px]">Pregnancy Support</h3>
+        <h3 class="h3 mb-[10px]">Dermatología</h3>
         <!-- grid item description -->
-        <p class="font-light leading-normal max-w-[300px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+        <p class="font-light leading-normal max-w-[150px]">
+          En IMAKI contamos con destacados profesionales de la dermatología en Chile. Profesionales con mas de 30 años de experiencia entregaran en tu visita su conocimiento y ayuda.
         </p>
       </div>
       <!-- grid item -->
@@ -285,13 +285,13 @@
         class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
         <!-- grid item icon -->
         <div class="mb-[15px]">
-          <img src="./assets/icons/services/icon-3.svg" alt="" />
+          <i class="fa-solid fa-eye text-accent-secondary text-[40px]"></i>
         </div>
         <!-- grid item title -->
-        <h3 class="h3 mb-[10px]">Nutritional Support</h3>
+        <h3 class="h3 mb-[10px]">Oftalmología Integral</h3>
         <!-- grid item description -->
         <p class="font-light leading-normal max-w-[300px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+          No dejes tu salud visual en cualquier lado, agenda con nuestro destacado equipo de profesionales quienes te ayudaran con tu problema en un ambiente cálido y con la más alta tecnología. Contamos con médicos y tecnólogos médicos especialistas en el área.
         </p>
       </div>
       <!-- grid item -->
@@ -299,15 +299,43 @@
         class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
         <!-- grid item icon -->
         <div class="mb-[15px]">
-          <img src="./assets/icons/services/icon-4.svg" alt="" />
+          <i class="fa-solid fa-heart-pulse text-accent-secondary text-[40px]"></i>
         </div>
         <!-- grid item title -->
-        <h3 class="h3 mb-[10px]">Pharmaceutical Care</h3>
+        <h3 class="h3 mb-[10px]">Cardiología</h3>
         <!-- grid item description -->
         <p class="font-light leading-normal max-w-[300px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing amet elit.
+          Todo tipo de exámenes cardiológicos en las manos de profesionales con años de experiencia te garantizaran una atención de calidad y con vocación. Cardiólogos que se involucran en tu tratamiento y enfocados en tu mejoría.
         </p>
       </div>
+       <!-- grid item -->
+       <div
+       class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+       <!-- grid item icon -->
+       <div class="mb-[15px]">
+         <i class="fa-solid fa-heart-pulse text-accent-secondary text-[40px]"></i>
+       </div>
+       <!-- grid item title -->
+       <h3 class="h3 mb-[10px]">Traumatologia</h3>
+       <!-- grid item description -->
+       <p class="font-light leading-normal max-w-[300px]">
+        En IMAKI tenemos traumatólogos y especialistas con vocación quienes te ayudarán en patologías musculoesqueléticas con rapidez y certeza.
+       </p>
+     </div>
+     <!-- grid item -->
+     <div
+     class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+     <!-- grid item icon -->
+     <div class="mb-[15px]">
+       <i class="fa-solid fa-heart-pulse text-accent-secondary text-[40px]"></i>
+     </div>
+     <!-- grid item title -->
+     <h3 class="h3 mb-[10px]">Estética Clínica</h3>
+     <!-- grid item description -->
+     <p class="font-light leading-normal max-w-[300px]">
+      La primera unidad de estética clínica de la comuna esta en IMAKI. Tratamientos reductivos, reafirmantes, faciales, bótox, ácido Hiluronico y más con el más completo equipo de médicos y kinesiólogos a tu disposición.
+     </p>
+   </div>
     </div>
   </div>
 </section>
