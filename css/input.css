@@ -56,6 +56,9 @@ h6 {
 .btn-outline {
   @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:border-transparent hover:text-white;
 }
+.btn-fill {
+  @apply bg-transparent bg-secondary opacity-75 text-accent hover:bg-accent hover:border-transparent hover:text-white;
+}
 
 .input,
 .select {
